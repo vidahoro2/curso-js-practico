@@ -60,7 +60,7 @@ let deudas= 1200;
 - Dinero real (dinero ahorrado menos deudas)
 
 
-```
+```js
     let  nombreCompleto = "Victor Daniel Ome Rojas";
     let dineroAhorrado = 1000;
     let deudas = 500;
@@ -87,7 +87,7 @@ let deudas= 1200;
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
-```
+```js
 const name = "Juan David";
 const lastname = "Castro Gallego";
 const completeName = name + lastname;
@@ -96,7 +96,7 @@ const nickname = "juandc";
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
 
-```
+```js
 let name = "Juan David";
 let lastName = "Castro Gallego";
 let completeName = name + lastname;
@@ -131,7 +131,7 @@ function mostrarDatos(name,lastName,nickName){
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 
-```
+```js
 const tipoDeSuscripcion = "Basic";
 
 switch (tipoDeSuscripcion) {
@@ -226,7 +226,7 @@ function conseguirTipoSuscripcion(suscripcion){
 
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 
-```
+```js
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
 }
